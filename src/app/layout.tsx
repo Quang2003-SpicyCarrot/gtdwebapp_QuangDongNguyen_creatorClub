@@ -23,7 +23,9 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`font-sans ${inter.variable}`}>
+        This is before space
         <TRPCReactProvider>{children}</TRPCReactProvider>
+        This is after space
       </body>
     </html>
   );
